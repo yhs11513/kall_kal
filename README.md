@@ -62,3 +62,11 @@ Without an API key, the app uses a clearly marked sample analysis so the local U
 - `npm install` completed successfully
 - `npm run build` completed successfully
 - Vite development server verified on port `5171`
+
+## Public site deployment
+
+The repository includes a GitHub Pages workflow. After the first successful `Deploy to GitHub Pages` workflow run, the public site will be available at:
+
+`https://yhs11513.github.io/kall_kal/`
+
+The workflow runs automatically on pushes to `main`. If Pages is not enabled yet, open repository `Settings > Pages`, choose `GitHub Actions` as the source, and rerun the workflow.
